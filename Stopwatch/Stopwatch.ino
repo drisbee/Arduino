@@ -42,10 +42,10 @@ void setup() {
 
 void startTijd(){
   // is de tijd gelijk aan 59sec en 999ste
-  if (Steps >  5999){
+  if (Steps >= 599){
     // Vehoog de tijd dan met 4000
     // Een zet de stappen op 0
-    Time = Time+4000;
+    Time = Time+400;
     Steps = 0;
   }
   
@@ -87,5 +87,5 @@ void loop() {
     tijdArray = tijdArray-1; 
   }
   
-  delay(9);
+  delay(99);
 }
